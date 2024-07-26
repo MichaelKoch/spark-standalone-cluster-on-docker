@@ -7,11 +7,6 @@ This project gives you an **Apache Spark** cluster in standalone mode with a **J
 Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR) API by running the Jupyter [notebooks](build/workspace/) with examples on how to read, process and write data.
 
 
-```bash
-curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
-docker-compose up
-```
-
 ## Contents
 
 - [Quick Start](#quick-start)
