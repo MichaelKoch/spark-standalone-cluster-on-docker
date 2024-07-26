@@ -7,10 +7,6 @@ LABEL org.label-schema.description="JupyterLab image"
 LABEL org.label-schema.url="https://github.com/MichaelKoch/spark-standalone-cluster-on-docker"
 LABEL org.label-schema.schema-version="1.0"
 
-# -- Layer: Notebooks and data
-
-#ADD workspace/ /opt/workspace/
-
 # -- Layer: JupyterLab + Python kernel for PySpark
 
 ARG spark_version=4.0.0-preview1
@@ -44,6 +40,8 @@ RUN apt-get install -y r-base-dev && \
 
 
 # -- Runtime
+# -- Layer: Notebooks and data
+ADD workspace/ /opt/workspace/
 
 EXPOSE 8888
 
