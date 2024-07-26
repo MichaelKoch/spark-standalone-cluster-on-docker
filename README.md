@@ -63,12 +63,10 @@ docker-compose up
 2. Move to the build directory;
 
 ```bash
-cd build
+cd docker
 ```
 
-3. Edit the [build.yml](build/build.yml) file with your favorite tech stack version;
-4. Match those version on the [docker compose](build/docker-compose.yml) file;
-5. Build up the images;
+
 
 ```bash
 chmod +x build.sh ; ./build.sh
