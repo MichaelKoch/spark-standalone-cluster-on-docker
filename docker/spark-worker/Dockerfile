@@ -5,7 +5,7 @@ FROM spark-base
 
 LABEL org.label-schema.name="Apache Spark Standalone Cluster on Docker - Spark Worker Image"
 LABEL org.label-schema.description="Spark worker image"
-LABEL org.label-schema.url="https://github.com/michaelkoch/spark-cluster-on-docker"
+LABEL org.label-schema.url="https://github.com/MichaelKoch/spark-standalone-cluster-on-docker"
 LABEL org.label-schema.schema-version="1.0"
 
 # -- Runtime
