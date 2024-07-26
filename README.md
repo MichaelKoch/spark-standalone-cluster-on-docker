@@ -31,24 +31,6 @@ Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR
 
  - Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/), check **infra** [supported versions](#tech-stack)
 
-### Download from Docker Hub (easier)
-
-1. Download the [docker compose](docker-compose.yml) file;
-
-```bash
-curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
-```
-
-2. Edit the [docker compose](docker-compose.yml) file with your favorite tech stack version, check **apps** [supported versions](#tech-stack);
-3. Start the cluster;
-
-```bash
-docker-compose up
-```
-
-4. Run Apache Spark code using the provided Jupyter [notebooks](build/workspace/) with Scala, PySpark and SparkR examples;
-5. Stop the cluster by typing `ctrl+c` on the terminal;
-6. Run step 3 to restart the cluster.
 
 ### Build from your local machine
 
